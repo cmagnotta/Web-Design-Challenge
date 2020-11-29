@@ -6,32 +6,51 @@ h1 {
   margin-bottom: 5px
 }
 
-/* Dropdown Button */
-.dropbtn {
+h2 {
   text-align: center;
-  background-color: slategray;
-  color: white;
-  border: none;
-  height: 45px; /* Full-height: remove this if you want "auto" height */
-  width: 90px;
-  position: fixed;
-  top: 10px; /* Stay at the top */
-  left: 10px;
+  font-size: 50px;
+  color: darkslategray;
+  margin-top: 50px; 
+  margin-bottom: 5px
 }
 
+/* Dropdown Button */
+.dropbtn {
+  margin-left: -90px;
+  background-color: slategrey;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
+/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+  margin-left: -90px;
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: slategrey;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
 
 /* The sidebar menu */
 .sidenav {
@@ -66,4 +85,11 @@ p {
   text-align: center;
   font-size: 40px;
   color: darkslategray;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
