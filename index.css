@@ -15,6 +15,29 @@ h2 {
 }
 
 
+.navbar {
+  overflow: hidden;
+  font-family: Arial;
+}
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.button {
+  background-color: slategrey;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
 .dropbtn {
   margin-left: -90px;
   background-color: slategrey;
